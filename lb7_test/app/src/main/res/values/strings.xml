@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuickNotes</string>
+    <string name="btn_add">Сохранить заметку</string>
+    <string name="hint_write_note">Введите вашу мысль...</string>
+    <string name="confirm_delete_title">Удаление</string>
+    <string name="confirm_delete_message">Вы действительно хотите удалить эту заметку?</string>
+    <string name="yes">Да</string>
+    <string name="no">Отмена</string>
+</resources>
