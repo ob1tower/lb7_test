@@ -41,4 +41,4 @@ def test_create_note(driver):
 
     # Проверяем, что заметка появилась в списке
     first_note = wait.until(EC.presence_of_element_located((By.XPATH, "//android.widget.ListView/*[1]")))
-    assert "Тестовая заметка Python!" in first_note.text, "Заметка не отображается в списке"
+    assert "Сделать ЛБ7!" in first_note.text, "Заметка не отображается в списке"
